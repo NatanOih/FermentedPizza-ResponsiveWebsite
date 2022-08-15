@@ -396,7 +396,7 @@ hr{
 
 .menu{
     position: relative;
-    height: 100vh;
+    height:fit-content;
 }
 .menu .menu__container{
    display: flex;
