@@ -93,6 +93,22 @@ window.addEventListener('scroll', scrollTop)
         document.querySelector('.popout-img').style.display = 'none';
     }
 
+
+    // scroll reveal animation
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '30px',
+        duration: 1000,
+        reset:true
+    });
+
+    sr.reveal('.home__data, .about__data, .about__img, .services__content, .menu__content, .footer__container, .mapouter',{
+        interval:200
+    });
+
+
+
   
     
 
